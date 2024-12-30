@@ -18,13 +18,13 @@ Documentação e Testes: Documentação do processo de desenvolvimento e execuç
 
 Tecnologias Utilizadas:
 
-  Spring Boot: Framework para desenvolvimento do backend, criando uma interface integrada de back-end e front-end.
-  Node.js: Utilizado para subir o servidor.
-  MySQL: Banco de dados para armazenar informações de usuários, como dados de login e cadastro.
-  Python (FastAPI): Framework para criar o modelo de inteligência artificial baseado no DecisionTree.
-  Pandas, scikit-learn: Bibliotecas utilizadas para o processamento de dados e modelagem com IA.
-  uVicorn: Servidor ASGI para rodar a aplicação FastAPI.
-  HTML, CSS, JavaScript: Tecnologias para construção do front-end e criação de uma interface simples de visualização.
+  - Spring Boot: Framework para desenvolvimento do backend, criando uma interface integrada de back-end e front-end.
+  - Node.js: Utilizado para subir o servidor.
+  - MySQL: Banco de dados para armazenar informações de usuários, como dados de login e cadastro.
+  - Python (FastAPI): Framework para criar o modelo de inteligência artificial baseado no DecisionTree.
+  - Pandas, scikit-learn: Bibliotecas utilizadas para o processamento de dados e modelagem com IA.
+  - uVicorn: Servidor ASGI para rodar a aplicação FastAPI.
+  - HTML, CSS, JavaScript: Tecnologias para construção do front-end e criação de uma interface simples de visualização.
   
 O que Aprendi:
 
@@ -50,13 +50,13 @@ Documentation and Testing: Document the development process and perform tests to
 
 Technologies Used:
 
-  Spring Boot: Framework for backend development, creating an integrated back-end and front-end interface.
-  Node.js: Used to run the server.
-  MySQL: Database to store user information such as login and registration data.
-  Python (FastAPI): Framework to create the artificial intelligence model based on DecisionTree.
-  Pandas, scikit-learn: Libraries used for data processing and AI modeling.
-  uVicorn: ASGI server to run the FastAPI application.
-  HTML, CSS, JavaScript: Technologies for building the front-end and creating a simple visualization interface.
+  - Spring Boot: Framework for backend development, creating an integrated back-end and front-end interface.
+  - Node.js: Used to run the server.
+  - MySQL: Database to store user information such as login and registration data.
+  - Python (FastAPI): Framework to create the artificial intelligence model based on DecisionTree.
+  - Pandas, scikit-learn: Libraries used for data processing and AI modeling.
+  - uVicorn: ASGI server to run the FastAPI application.
+  - HTML, CSS, JavaScript: Technologies for building the front-end and creating a simple visualization interface.
   
 What I Learned:
 Through this project, I applied knowledge in integrating back-end and front-end using Spring Boot and Node.js, as well as collecting and processing network data. I developed skills in using artificial intelligence techniques, particularly with DecisionTree, for network traffic analysis. I also improved my ability to build web interfaces and integrate different components of the system, as well as working with a database to persist user information.
@@ -81,13 +81,13 @@ Documentación y Pruebas: Documentación del proceso de desarrollo y realizació
 
 Tecnologías Utilizadas:
 
-  Spring Boot: Framework para el desarrollo del back-end, creando una interfaz integrada de back-end y front-end.
-  Node.js: Utilizado para ejecutar el servidor.
-  MySQL: Base de datos para almacenar información de usuarios, como datos de inicio de sesión y registro.
-  Python (FastAPI): Framework para crear el modelo de inteligencia artificial basado en DecisionTree.
-  Pandas, scikit-learn: Bibliotecas utilizadas para el procesamiento de datos y modelado con IA.
-  uVicorn: Servidor ASGI para ejecutar la aplicación FastAPI.
-  HTML, CSS, JavaScript: Tecnologías para construir el front-end y crear una interfaz de visualización simple.
+  - Spring Boot: Framework para el desarrollo del back-end, creando una interfaz integrada de back-end y front-end.
+  - Node.js: Utilizado para ejecutar el servidor.
+  - MySQL: Base de datos para almacenar información de usuarios, como datos de inicio de sesión y registro.
+  - Python (FastAPI): Framework para crear el modelo de inteligencia artificial basado en DecisionTree.
+  - Pandas, scikit-learn: Bibliotecas utilizadas para el procesamiento de datos y modelado con IA.
+  - uVicorn: Servidor ASGI para ejecutar la aplicación FastAPI.
+  - HTML, CSS, JavaScript: Tecnologías para construir el front-end y crear una interfaz de visualización simple.
   
 Lo que Aprendí:
 Con este proyecto, apliqué conocimientos sobre la integración de back-end y front-end utilizando Spring Boot y Node.js, así como la recolección y procesamiento de datos de red. Desarrollé habilidades en el uso de técnicas de inteligencia artificial, especialmente con DecisionTree, para el análisis de tráfico de red. También mejoré mi capacidad para crear interfaces web e integrar los diferentes componentes del sistema, además de trabajar con una base de datos para persistir la información de los usuarios.
