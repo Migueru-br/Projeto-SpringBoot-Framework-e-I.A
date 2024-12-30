@@ -30,7 +30,7 @@ O que Aprendi:
 
 Com este projeto, apliquei conhecimentos em integração de back-end e front-end usando Spring Boot e Node.js, além de realizar a coleta e o processamento de dados de rede. Desenvolvi habilidades no uso de técnicas de inteligência artificial, especialmente com DecisionTree, para análise de tráfego de rede. Aprimorei também a construção de interfaces web e a integração entre os diferentes componentes do sistema, além de trabalhar com um banco de dados para persistência de informações de usuários.
 
-============================================================================================
+===========================================================================
 
 English (EN):
 
@@ -61,7 +61,7 @@ Technologies Used:
 What I Learned:
 Through this project, I applied knowledge in integrating back-end and front-end using Spring Boot and Node.js, as well as collecting and processing network data. I developed skills in using artificial intelligence techniques, particularly with DecisionTree, for network traffic analysis. I also improved my ability to build web interfaces and integrate different components of the system, as well as working with a database to persist user information.
 
-============================================================================================
+===========================================================================
 
 Español (ES):
 
