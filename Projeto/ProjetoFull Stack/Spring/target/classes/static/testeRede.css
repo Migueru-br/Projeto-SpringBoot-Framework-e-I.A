@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 2000px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 60px;
+    height: 100%;
+    background-color: #097af1;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Torna a sidebar fixa na página */
+    top: 0; /* Garante alinhamento com o topo */
+    left: 0; /* Garante que ela comece do lado esquerdo */
+    transition: width 0.3s ease; 
+    overflow: hidden;
+    z-index: 1100; /* Valor maior que o da cabeca */
+}
+
+
+.sidebar.collapsed {
+    width: 250px; 
+}
+
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    background-color: #0653a7;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Itens do menu */
+.menu-item {  
+    margin-bottom: 20px;
+    display: none;
+}
+  
+.menu-button {
+    margin-top: 50px;
+    width: 85%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.menu-button2{
+    text-decoration: none;
+    margin-top: 10px;
+    width: 85%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu-button3{
+    text-decoration: none;
+    margin-top: 10px;
+    width: 85%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar.collapsed .menu-item {
+    display: contents;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 200px;
+    height: fit-content;
+}
+
+.imagens {
+    text-align: center; 
+    margin-left: 80px;
+}
+
+.imagens img {
+    width: 400px; 
+    height: 400px; 
+    border: 3px solid #000; 
+}
+
+.imagens p {
+    margin-top: 10px; 
+}
+
+.container {
+    padding-left: 300px;
+}
+
+.cabeca {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    position: fixed; /* Mantém a div na parte superior da página */
+    top: 0; /* Garante que fique no topo */
+    background-color: #f4f4f4; /* Pode ajustar a cor se necessário */
+    z-index: 1000; /* Certifica-se de que a div esteja acima de outros elementos */
+    padding-top:20px; /* Espaçamento interno para melhor visualização */
+    margin-left: 50px;
+    
+}
+
+.cabeca h1 {
+    margin: 0; /* Remove margens adicionais */
+    font-size: 2.5rem; /* Ajusta o tamanho da fonte, se necessário */
+}

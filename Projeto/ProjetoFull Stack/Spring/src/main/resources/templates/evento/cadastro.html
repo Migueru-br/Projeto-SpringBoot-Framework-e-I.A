@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INTEGRADOR</title>
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <body>
+        <div class="container">
+          <h1>Cadastro</h1>
+          <!-- Quebrei a cabeça com isso, as inserções não estavam sendo realizadas na tabela, pois, o method="post" e action="/cadastrar" são necessários para o back-end entender a função do form-->
+          <form class="registration-form" action="/cadastrar" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+      
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+      
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+      
+            <button type="submit">Cadastrar</button>
+    
+            <h3>Já tem uma conta?</h3>
+            <a href="/logar">Login</a>
+          </form>
+        </div>
+      </body>
+</html>
+

@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html xmlns:th="http://thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INTEGRADOR</title>
+        <link rel="stylesheet" href="predict.css">
+
+    </head>
+
+    <body>
+        <div class="sidebar" id="sidebar">
+            <button class="toggle-button" id="toggle-button">☰</button>
+            <div class="menu-item">
+                <a class="menu-button" href="/testeRede">Teste de rede</a>
+                <a class="menu-button2" href="/perfil">Perfil</a>
+                <a class="menu-button3" href="/predict">Predição I.A</a>
+            </div>
+        </div>
+        <div class="cabeca">
+            <h1>Predição de ataque</h1><br>
+        </div>
+        <form class="registration-form" id="predictionForm">
+            <label for="id_resp_p">Id_resp_p:</label>
+            <input type="text" id="id_resp_p" name="id_resp_p" placeholder="Digite aqui o id_resp_p" required>
+
+            <label for="flow_pkts_payload_avg">Flow_pkts_payload_avg:</label>
+            <input type="text" id="flow_pkts_payload_avg" name="flow_pkts_payload_avg"
+                placeholder="Digite aqui o flow_pkts_payload_avg" required>
+
+            <label for="flow_iat_min">Flow_iat_min:</label>
+            <input type="text" id="flow_iat_min" name="flow_iat_min" placeholder="Digite aqui o flow_iat_min" required>
+
+            <label for="fwd_pkts_payload_min">Fwd_pkts_payload_min:</label>
+            <input type="text" id="fwd_pkts_payload_min" name="fwd_pkts_payload_min"
+                placeholder="Digite aqui o fwd_pkts_payload_min" required>
+
+            <label for="bwd_subflow_bytes">Bwd_subflow_bytes:</label>
+            <input type="text" id="bwd_subflow_bytes" name="bwd_subflow_bytes" placeholder="Digite aqui o bwd_subflow_bytes"
+                required>
+
+            <label for="fwd_data_pkts_tot">Fwd_data_pkts_tot:</label>
+            <input type="text" id="fwd_data_pkts_tot" name="fwd_data_pkts_tot" placeholder="Digite aqui o fwd_data_pkts_tot"
+                required>
+
+            <label for="id_orig_p">Id_orig_p:</label>
+            <input type="text" id="id_orig_p" name="id_orig_p" placeholder="Digite aqui o id_orig_p" required>
+
+            <label for="flow_pkts_payload_min">Flow_pkts_payload_min:</label>
+            <input type="text" id="flow_pkts_payload_min" name="flow_pkts_payload_min"
+                placeholder="Digite aqui o flow_pkts_payload_min" required>
+
+            <label for="active_min">Active_min:</label>
+            <input type="text" id="active_min" name="active_min" placeholder="Digite aqui o active_min" required>
+
+            <label for="flow_pkts_payload_max">Flow_pkts_payload_max:</label>
+            <input type="text" id="flow_pkts_payload_max" name="flow_pkts_payload_max"
+                placeholder="Digite aqui o flow_pkts_payload_max" required>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="" disabled selected>Selecione um serviço</option>
+                <option value="dns">DNS</option>
+                <option value="http">HTTP</option>
+                <option value="mqtt">MQTT</option>
+                <option value="ssl">SSL</option>
+            </select>
+
+            <label for="proto">Proto:</label>
+            <select id="proto" name="proto" required>
+                <option value="" disabled selected>Selecione um protocolo</option>
+                <option value="tcp">TCP</option>
+                <option value="udp">UDP</option>
+            </select>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <script src="menuSide.js"></script>
+
+    </body>
+
+    </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Suas informações:</h1>
+        <form class="registration-form" action="/perfil" method="post">
+            <div class="imagem-p">
+                <img src="perfil.png" alt="foto de perfil" id="img-p">
+            </div>
+
+            <label for="codigo">ID:</label>
+            <input type="text" id="codigo" name="codigo" th:value="${usuario.codigo}" readonly>
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" th:value="${usuario.name}" readonly>
+      
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" th:value="${usuario.email}" readonly>
+      
+            <label for="password">Senha:</label>
+            <div class="senha" style="position: relative;">
+                <input type="password" id="password" name="password" th:value="${usuario.password}" readonly>
+                <span class="eye-icon" id="togglePassword" onclick="togglePassword()">
+                    🙈
+                </span>
+            </div>
+
+            <div class="botao">
+                <h3>Deseja voltar para o menu?</h3>
+                <a class="menu-button" href="/testeRede">Menu</a>
+            </div>
+        </form>
+    </div>
+    <script src="perfil.js" ></script>
+</body>
+</html>
